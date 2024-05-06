@@ -14,7 +14,9 @@
 }
 
 body {
-    background-image: url(energia\ escura.png);
+    background-image: url(buraco-negro.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
@@ -36,31 +38,25 @@ body {
     justify-content: space-around;
 }
 
-.mario img {
-    width: 2.2em;
+.energia-escura {
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    display: block;
+    justify-content: space-around;
 }
 
-.mario {
-    text-align: center;
+.titulo-principal1 {
+    font-family:  'Times New Roman', Times, serif  ;
+    font-size: 2em;
+    color: white;
+    padding: 1px 1px;
 }
 
-.yoshi img {
-    width: 2em;
-}
-
-.bowser img {
-    width: 3em;
-}
-
-.peach img {
-    width: 2em;
-}
-
-.botao {
-    text-decoration: none;
-    color: red;
-}
-
-.botao:hover {
-    color: yellow;
+.titulo-principal2 {
+    font-family:  'Times New Roman', Times, serif  ;
+    font-size: 2em;
+    color: white;
+    padding: 1px 1px;
 }
