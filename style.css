@@ -13,8 +13,8 @@
     padding: 50px 50px;
 }
 
-.principal {
-    background-image: url(fundo.png);
+body {
+    background-image: url(energia\ escura.png);
 }
 
 * {
@@ -27,12 +27,12 @@
 }
 
 
-.lista-personagens {
+.materia-escura {
     list-style: none;
-    font-family: tac one;
-    color: red;
-    font-size: 50px;
-    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    display: block;
     justify-content: space-around;
 }
 
